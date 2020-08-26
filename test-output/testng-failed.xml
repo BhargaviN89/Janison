@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Trip Planner]">
+  <test name="Plan A Trip(failed)">
+    <classes>
+      <class name="testCases.PlanATrip">
+        <methods>
+          <include name="planTrip"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.PlanATrip -->
+    </classes>
+  </test> <!-- Plan A Trip(failed) -->
+</suite> <!-- Failed suite [Trip Planner] -->
